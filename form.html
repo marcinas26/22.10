@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz</title>
+</head>
+<body>
+    <header><h1>formularz testowy</h1>
+    </header>
+    <main>
+        <div>
+            <h4>ogladaj</h4>
+            <video src="1.mp4" controls="controls"></video>
+            
+        </div>
+        <fieldset action="">
+            <fieldset>
+                <legend>informacje podstawowe</legend>
+                <label for="">imie: <input type="text" placeholder="napisz coś" required></label>
+                <label for="">*hasło: <input type="email" placeholder="podaj email" required></label><br>
+                <label for="">*email<input type="pasword" placeholder="podaj"></label>
+            </fieldset>
+                <legend>wybierz dane</legend>
+                <label for="">wybierz date: <input type="date"></label><br>
+                <label for="">wybierz kolor: <input type="color"></label><br>
+                <label for="">załcz plik: <input type="file"></label><br>
+                <label for="">ilość <input type="number" min="0" max="10"></label><br>
+        </fieldset>
+        <fieldset>
+            <legend> pytania ?</legend>
+            <div>
+                <p>jaką muzykę lubisz?</p>
+                <label for=""> <input type="checkbox" name="music">pop</label><br>
+                <label for=""> <input type="checkbox" name="music">pop</label><br>
+                <label for=""> <input type="checkbox" name="music">rok</label><br>
+            </div>
+            <div>
+                <p>ile masz lat</p>
+                <label for=""><input type="radio" name="age">0-20</label><br>
+                <label for=""><input type="radio" name="age">20-50</label><br>
+                <label for=""><input type="radio" name="age">50-100</label><br>
+            </div>
+        </fieldset>
+            <div id="buttons">
+                <input type="reset" value="wyczyść formularz">
+                <input type="submint" value="wyślij formularz">
+            </div>
+        </form>
+        <section id="map">
+            <h4>zobacz wskazówki dojazdu</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9571.159101076735!2d18.148761891770224!3d53.14986732776248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703166910db750f%3A0xec3ad4b891e414d5!2sBajka.%20Apteka%20ca%C5%82odobowa!5e0!3m2!1spl!2spl!4v1666434263306!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+</body>
+</html>
